@@ -1,0 +1,23 @@
+{{#if err}}
+<h2>Error: Show not found!</h3><br>
+    {{else}}
+    <h2>Scores for {{show.title}}</h2>
+    {{/if}}
+
+    <h3>Set the Show's Rating</h3>
+
+    <div style="text-align:center">
+        <form method="POST" action="/search/{{show.slug}}">
+            <b> Rating: </b><input type="number" name="rating" value="">
+            <input type="submit" value="Set!">
+        </form>
+    </div>
+
+    <div style="text-align:center">
+        {{#if show.score}}
+        <br>
+        Score: {{show.stars}}
+        {{else}}
+        No score yet!
+        {{/if}}
+    </div>

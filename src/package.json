@@ -1,0 +1,23 @@
+{
+  "name": "fullstack_app",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express-handlebars": "^3.0.2",
+    "fetch": "^1.1.0",
+    "hbs": "^4.0.3",
+    "jikan-node": "^1.1.2",
+    "mongo-sanitize": "^1.0.1",
+    "node-fetch": "^2.4.1",
+    "sanitize": "^2.1.0",
+    "victory": "^32.2.0"
+  }
+}

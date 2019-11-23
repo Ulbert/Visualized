@@ -1,0 +1,19 @@
+<h1>Visualized</h1>
+
+<div style="text-align: center">
+    <a href="/">Search</a>
+    <a href="/add">Add a Show</a>
+</div>
+
+<h2>Add a Show</h2>
+{{#if err}}
+<h3>Error: Please try again!</h3><br>
+{{/if}}
+
+<br>
+<div <div style="text-align:center">
+    <form method="POST" action="/add">
+        <b>Title: </b><input type="text" name="title" value=""><br>
+        <input type="submit" value="Add this show!">
+    </form>
+</div>
