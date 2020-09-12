@@ -16,7 +16,7 @@
     "hbs": "^4.0.3",
     "jikan-node": "^1.1.2",
     "mongo-sanitize": "^1.0.1",
-    "node-fetch": "^2.4.1",
+    "node-fetch": "^2.6.1",
     "sanitize": "^2.1.0",
     "victory": "^32.2.0"
   }
